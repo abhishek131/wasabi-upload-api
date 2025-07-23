@@ -1,0 +1,26 @@
+{
+  "name": "wasabi-upload-api",
+  "version": "1.0.0",
+  "description": "Wasabi upload API with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "install-prod": "npm install --omit=dev"
+  },
+  "keywords": [],
+  "author": "abhishek",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.850.0",
+    "aws-sdk": "^2.1692.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
